@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/Atulya-Mishra/LinkForge#readme",
   "dependencies": {
-    "express": "^5.3.0"
+    "@prisma/client": "^6.19.3",
+    "express": "^5.3.0",
+    "prisma": "^6.19.3"
   }
 }
