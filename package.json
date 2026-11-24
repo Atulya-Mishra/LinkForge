@@ -1,0 +1,26 @@
+{
+  "name": "linkforge",
+  "version": "1.0.0",
+  "description": "URL Shortener is a scalable backend application that converts long URLs into short, shareable links and efficiently redirects users to the original destination. The system is designed with performance in mind using caching and database optimization techniques.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atulya-Mishra/LinkForge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Atulya-Mishra/LinkForge/issues"
+  },
+  "homepage": "https://github.com/Atulya-Mishra/LinkForge#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
